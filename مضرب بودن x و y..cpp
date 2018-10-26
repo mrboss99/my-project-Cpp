@@ -5,17 +5,17 @@ int main() {
 
 	int x, y;
 	float p;
-	cout << "lotfan Aadad sahih vared konid:" << "\n";
+	cout << "pleas enter integer number:" << "\n";
 	cout << "x =";
 	cin >> x;
 	cout << "y =";
 	cin >> y;
 	p = y % x;
 	if (p == 0) {
-		cout << "y mazrabi az x ast";
+		cout << "y multiply x ";
 	}
 	else {
-		cout << "y mazrabi az x nist";
+		cout << "y down`t multiply x";
 	}
 	cin.get();
 	cin.get();
